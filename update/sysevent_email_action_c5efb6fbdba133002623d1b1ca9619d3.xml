@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_58872_needit_needit_task</collection>
+        <condition/>
+        <content_type>multipart/mixed</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_58872_needit.overdueNeedItTask</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<!-- [if IE]><html xmlns="http://www.w3.org/1999/xhtml" class="ie"><![endif]--><!-- [if !IE]><!--><!--<![endif]--><!-- [if !mso]><!--><!--<![endif]-->
+<p>&nbsp;</p>
+<style type="text/css"><!--
+@media only screen and (min-width: 620px){.wrapper{min-width:600px !important}.wrapper h1{}.wrapper h1{font-size:26px !important;line-height:34px !important}.wrapper h2{}.wrapper h3{}.column{}.wrapper .size-8{font-size:8px !important;line-height:14px !important}.wrapper .size-9{font-size:9px !important;line-height:16px !important}.wrapper .size-10{font-size:10px !important;line-height:18px !important}.wrapper .size-11{font-size:11px !important;line-height:19px !important}.wrapper .size-12{font-size:12px !important;line-height:19px !important}.wrapper .size-13{font-size:13px !important;line-height:21px !important}.wrapper .size-14{font-size:14px !important;line-height:21px !important}.wrapper .size-15{font-size:15px !important;line-height:23px !important}.wrapper .size-16{font-size:16px !important;line-height:24px !important}.wrapper .size-17{font-size:17px !important;line-height:26px 
+!important}.wrapper .size-18{font-size:18px !important;line-height:26px !important}.wrapper .size-20{font-size:20px !important;line-height:28px !important}.wrapper .size-22{font-size:22px !important;line-height:31px !important}.wrapper .size-24{font-size:24px !important;line-height:32px !important}.wrapper .size-26{font-size:26px !important;line-height:34px !important}.wrapper .size-28{font-size:28px !important;line-height:36px !important}.wrapper .size-30{font-size:30px !important;line-height:38px !important}.wrapper .size-32{font-size:32px !important;line-height:40px !important}.wrapper .size-34{font-size:34px !important;line-height:43px !important}.wrapper .size-36{font-size:36px !important;line-height:43px !important}.wrapper .size-40{font-size:40px !important;line-height:47px !important}.wrapper .size-44{font-size:44px !important;line-height:50px !important}.wrapper 
+.size-48{font-size:48px !important;line-height:54px !important}.wrapper .size-56{font-size:56px !important;line-height:60px !important}.wrapper .size-64{font-size:64px !important;line-height:63px !important}}
+--></style>
+<style type="text/css"><!--
+body {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+* {
+  line-height: inherit;
+}
+[x-apple-data-detectors],
+[href^="tel"],
+[href^="sms"] {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.wrapper .footer__share-button a:hover,
+.wrapper .footer__share-button a:focus {
+  color: #ffffff !important;
+}
+.btn a:hover,
+.btn a:focus,
+.footer__share-button a:hover,
+.footer__share-button a:focus,
+.email-footer__links a:hover,
+.email-footer__links a:focus {
+  opacity: 0.8;
+}
+.preheader,
+.header,
+.layout,
+.column {
+  transition: width 0.25s ease-in-out, max-width 0.25s ease-in-out;
+}
+.layout,
+div.header {
+  max-width: 400px !important;
+  -fallback-width: 95% !important;
+  width: calc(100% - 20px) !important;
+}
+div.preheader {
+  max-width: 360px !important;
+  -fallback-width: 90% !important;
+  width: calc(100% - 60px) !important;
+}
+.snippet,
+.webversion {
+  Float: none !important;
+}
+.column {
+  max-width: 400px !important;
+  width: 100% !important;
+}
+.fixed-width.has-border {
+  max-width: 402px !important;
+}
+.fixed-width.has-border .layout__inner {
+  box-sizing: border-box;
+}
+.snippet,
+.webversion {
+  width: 50% !important;
+}
+.ie .btn {
+  width: 100%;
+}
+.ie .column,
+[owa] .column,
+.ie .gutter,
+[owa] .gutter {
+  display: table-cell;
+  float: none !important;
+  vertical-align: top;
+}
+.ie div.preheader,
+[owa] div.preheader,
+.ie .email-footer,
+[owa] .email-footer {
+  max-width: 560px !important;
+  width: 560px !important;
+}
+.ie .snippet,
+[owa] .snippet,
+.ie .webversion,
+[owa] .webversion {
+  width: 280px !important;
+}
+.ie div.header,
+[owa] div.header,
+.ie .layout,
+[owa] .layout,
+.ie .one-col .column,
+[owa] .one-col .column {
+  max-width: 600px !important;
+  width: 600px !important;
+}
+.ie .fixed-width.has-border,
+[owa] .fixed-width.has-border,
+.ie .has-gutter.has-border,
+[owa] .has-gutter.has-border {
+  max-width: 602px !important;
+  width: 602px !important;
+}
+.ie .two-col .column,
+[owa] .two-col .column {
+  max-width: 300px !important;
+  width: 300px !important;
+}
+.ie .three-col .column,
+[owa] .three-col .column,
+.ie .narrow,
+[owa] .narrow {
+  max-width: 200px !important;
+  width: 200px !important;
+}
+.ie .wide,
+[owa] .wide {
+  width: 400px !important;
+}
+.ie .two-col.has-gutter .column,
+[owa] .two-col.x_has-gutter .column {
+  max-width: 290px !important;
+  width: 290px !important;
+}
+.ie .three-col.has-gutter .column,
+[owa] .three-col.x_has-gutter .column,
+.ie .has-gutter .narrow,
+[owa] .has-gutter .narrow {
+  max-width: 188px !important;
+  width: 188px !important;
+}
+.ie .has-gutter .wide,
+[owa] .has-gutter .wide {
+  max-width: 394px !important;
+  width: 394px !important;
+}
+.ie .two-col.has-gutter.has-border .column,
+[owa] .two-col.x_has-gutter.x_has-border .column {
+  max-width: 292px !important;
+  width: 292px !important;
+}
+.ie .three-col.has-gutter.has-border .column,
+[owa] .three-col.x_has-gutter.x_has-border .column,
+.ie .has-gutter.has-border .narrow,
+[owa] .has-gutter.x_has-border .narrow {
+  max-width: 190px !important;
+  width: 190px !important;
+}
+.ie .has-gutter.has-border .wide,
+[owa] .has-gutter.x_has-border .wide {
+  max-width: 396px !important;
+  width: 396px !important;
+}
+.ie .fixed-width .layout__inner {
+  border-left: 0 none white !important;
+  border-right: 0 none white !important;
+}
+.ie .layout__edges {
+  display: none;
+}
+.mso .layout__edges {
+  font-size: 0;
+}
+.layout-fixed-width,
+.mso .layout-full-width {
+  background-color: #ffffff;
+}
+@media only screen and (min-width: 620px) {
+  .column,
+  .gutter {
+    display: table-cell;
+    Float: none !important;
+    vertical-align: top;
+  }
+  div.preheader,
+  .email-footer {
+    max-width: 560px !important;
+    width: 560px !important;
+  }
+  .snippet,
+  .webversion {
+    width: 280px !important;
+  }
+  div.header,
+  .layout,
+  .one-col .column {
+    max-width: 600px !important;
+    width: 600px !important;
+  }
+  .fixed-width.has-border,
+  .fixed-width.ecxhas-border,
+  .has-gutter.has-border,
+  .has-gutter.ecxhas-border {
+    max-width: 602px !important;
+    width: 602px !important;
+  }
+  .two-col .column {
+    max-width: 300px !important;
+    width: 300px !important;
+  }
+  .three-col .column,
+  .column.narrow {
+    max-width: 200px !important;
+    width: 200px !important;
+  }
+  .column.wide {
+    width: 400px !important;
+  }
+  .two-col.has-gutter .column,
+  .two-col.ecxhas-gutter .column {
+    max-width: 290px !important;
+    width: 290px !important;
+  }
+  .three-col.has-gutter .column,
+  .three-col.ecxhas-gutter .column,
+  .has-gutter .narrow {
+    max-width: 188px !important;
+    width: 188px !important;
+  }
+  .has-gutter .wide {
+    max-width: 394px !important;
+    width: 394px !important;
+  }
+  .two-col.has-gutter.has-border .column,
+  .two-col.ecxhas-gutter.ecxhas-border .column {
+    max-width: 292px !important;
+    width: 292px !important;
+  }
+  .three-col.has-gutter.has-border .column,
+  .three-col.ecxhas-gutter.ecxhas-border .column,
+  .has-gutter.has-border .narrow,
+  .has-gutter.ecxhas-border .narrow {
+    max-width: 190px !important;
+    width: 190px !important;
+  }
+  .has-gutter.has-border .wide,
+  .has-gutter.ecxhas-border .wide {
+    max-width: 396px !important;
+    width: 396px !important;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .fblike {
+    background-image: url(https://i3.createsend1.com/static/eb/master/13-the-blueprint-3/images/fblike@2x.png) !important;
+  }
+  .tweet {
+    background-image: url(https://i5.createsend1.com/static/eb/master/13-the-blueprint-3/images/tweet@2x.png) !important;
+  }
+  .linkedinshare {
+    background-image: url(https://i4.createsend1.com/static/eb/master/13-the-blueprint-3/images/lishare@2x.png) !important;
+  }
+  .forwardtoafriend {
+    background-image: url(https://i7.createsend1.com/static/eb/master/13-the-blueprint-3/images/forward@2x.png) !important;
+  }
+}
+@media (max-width: 321px) {
+  .fixed-width.has-border .layout__inner {
+    border-width: 1px 0 !important;
+  }
+  .layout,
+  .column {
+    min-width: 320px !important;
+    width: 320px !important;
+  }
+  .border {
+    display: none;
+  }
+}
+.mso div {
+  border: 0 none white !important;
+}
+.mso .w560 .divider {
+  Margin-left: 260px !important;
+  Margin-right: 260px !important;
+}
+.mso .w360 .divider {
+  Margin-left: 160px !important;
+  Margin-right: 160px !important;
+}
+.mso .w260 .divider {
+  Margin-left: 110px !important;
+  Margin-right: 110px !important;
+}
+.mso .w160 .divider {
+  Margin-left: 60px !important;
+  Margin-right: 60px !important;
+}
+.mso .w354 .divider {
+  Margin-left: 157px !important;
+  Margin-right: 157px !important;
+}
+.mso .w250 .divider {
+  Margin-left: 105px !important;
+  Margin-right: 105px !important;
+}
+.mso .w148 .divider {
+  Margin-left: 54px !important;
+  Margin-right: 54px !important;
+}
+.mso .font-avenir,
+.mso .font-cabin,
+.mso .font-open-sans,
+.mso .font-ubuntu {
+  font-family: sans-serif !important;
+}
+.mso .font-bitter,
+.mso .font-merriweather,
+.mso .font-pt-serif {
+  font-family: Georgia, serif !important;
+}
+.mso .font-lato,
+.mso .font-roboto {
+  font-family: Tahoma, sans-serif !important;
+}
+.mso .font-pt-sans {
+  font-family: "Trebuchet MS", sans-serif !important;
+}
+.mso .footer__share-button p {
+  margin: 0;
+}
+.mso .size-8,
+.ie .size-8 {
+  font-size: 8px !important;
+  line-height: 14px !important;
+}
+.mso .size-9,
+.ie .size-9 {
+  font-size: 9px !important;
+  line-height: 16px !important;
+}
+.mso .size-10,
+.ie .size-10 {
+  font-size: 10px !important;
+  line-height: 18px !important;
+}
+.mso .size-11,
+.ie .size-11 {
+  font-size: 11px !important;
+  line-height: 19px !important;
+}
+.mso .size-12,
+.ie .size-12 {
+  font-size: 12px !important;
+  line-height: 19px !important;
+}
+.mso .size-13,
+.ie .size-13 {
+  font-size: 13px !important;
+  line-height: 21px !important;
+}
+.mso .size-14,
+.ie .size-14 {
+  font-size: 14px !important;
+  line-height: 21px !important;
+}
+.mso .size-15,
+.ie .size-15 {
+  font-size: 15px !important;
+  line-height: 23px !important;
+}
+.mso .size-16,
+.ie .size-16 {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+.mso .size-17,
+.ie .size-17 {
+  font-size: 17px !important;
+  line-height: 26px !important;
+}
+.mso .size-18,
+.ie .size-18 {
+  font-size: 18px !important;
+  line-height: 26px !important;
+}
+.mso .size-20,
+.ie .size-20 {
+  font-size: 20px !important;
+  line-height: 28px !important;
+}
+.mso .size-22,
+.ie .size-22 {
+  font-size: 22px !important;
+  line-height: 31px !important;
+}
+.mso .size-24,
+.ie .size-24 {
+  font-size: 24px !important;
+  line-height: 32px !important;
+}
+.mso .size-26,
+.ie .size-26 {
+  font-size: 26px !important;
+  line-height: 34px !important;
+}
+.mso .size-28,
+.ie .size-28 {
+  font-size: 28px !important;
+  line-height: 36px !important;
+}
+.mso .size-30,
+.ie .size-30 {
+  font-size: 30px !important;
+  line-height: 38px !important;
+}
+.mso .size-32,
+.ie .size-32 {
+  font-size: 32px !important;
+  line-height: 40px !important;
+}
+.mso .size-34,
+.ie .size-34 {
+  font-size: 34px !important;
+  line-height: 43px !important;
+}
+.mso .size-36,
+.ie .size-36 {
+  font-size: 36px !important;
+  line-height: 43px !important;
+}
+.mso .size-40,
+.ie .size-40 {
+  font-size: 40px !important;
+  line-height: 47px !important;
+}
+.mso .size-44,
+.ie .size-44 {
+  font-size: 44px !important;
+  line-height: 50px !important;
+}
+.mso .size-48,
+.ie .size-48 {
+  font-size: 48px !important;
+  line-height: 54px !important;
+}
+.mso .size-56,
+.ie .size-56 {
+  font-size: 56px !important;
+  line-height: 60px !important;
+}
+.mso .size-64,
+.ie .size-64 {
+  font-size: 64px !important;
+  line-height: 63px !important;
+}
+.footer__share-button p {
+  margin: 0;
+}
+--></style>
+<!-- [if !mso]><!-->
+<style type="text/css"><!--
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic|Ubuntu:400,700,400italic,700italic);
+--></style>
+<p><link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic|Ubuntu:400,700,400italic,700italic" rel="stylesheet" type="text/css" /></p>
+<!--<![endif]-->
+<style type="text/css"><!--
+body{background-color:#ededf1}.mso h1{}.mso h1{font-family:sans-serif !important}.mso h2{}.mso h2{font-family:sans-serif !important}.mso h3{}.mso .column,.mso .column__background td{}.mso .column,.mso .column__background td{font-family:Georgia,serif !important}.mso .btn a{}.mso .btn a{font-family:Georgia,serif !important}.mso .webversion,.mso .snippet,.mso .layout-email-footer td,.mso .footer__share-button p{}.mso .webversion,.mso .snippet,.mso .layout-email-footer td,.mso .footer__share-button p{font-family:sans-serif !important}.mso .logo{}.mso .logo{font-family:Tahoma,sans-serif !important}.logo a:hover,.logo a:focus{color:#859bb1 !important}.mso .layout-has-border{border-top:1px solid #b4b4c4;border-bottom:1px solid #b4b4c4}.mso .layout-has-bottom-border{border-bottom:1px solid #b4b4c4}.mso .border,.ie .border{background-color:#b4b4c4}.mso h1,.ie h1{}.mso h1,.ie h1{font-size:26px 
+!important;line-height:34px !important}.mso h2,.ie h2{}.mso h3,.ie h3{}.mso .layout__inner,.ie .layout__inner{}
+--></style>
+<!-- [if mso]>
+  <body class="mso">
+<![endif]-->
+<p>&nbsp;</p>
+<!-- [if !mso]><!-->
+<p>&nbsp;</p>
+<!--<![endif]-->
+<table class="wrapper" style="border-collapse: collapse; table-layout: fixed; min-width: 320px; width: 100%; background-color: #ededf1;" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<div>
+<div class="preheader" style="margin: 0 auto; max-width: 560px; min-width: 280px; width: calc(28000% - 167440px);">
+<div style="border-collapse: collapse; display: table; width: 100%;"><!-- [if (mso)|(IE)]><table align="center" class="preheader" cellpadding="0" cellspacing="0" role="presentation"><tr><td style="width: 280px" valign="top"><![endif]-->
+<div class="snippet" style="display: table-cell; float: left; font-size: 12px; line-height: 19px; max-width: 280px; min-width: 140px; width: calc(14000% - 78120px); padding: 10px 0 5px 0; color: #7c7e7f; font-family: Ubuntu,sans-serif;">&nbsp;</div>
+<!-- [if (mso)|(IE)]></td><td style="width: 280px" valign="top"><![endif]-->
+<div class="webversion" style="display: table-cell; float: left; font-size: 12px; line-height: 19px; max-width: 280px; min-width: 139px; width: calc(14100% - 78680px); padding: 10px 0 5px 0; text-align: right; color: #7c7e7f; font-family: Ubuntu,sans-serif;">&nbsp;</div>
+<!-- [if (mso)|(IE)]></td></tr></table><![endif]--></div>
+</div>
+<div id="emb-email-header-container" class="header" style="margin: 0 auto; max-width: 600px; min-width: 320px; width: calc(28000% - 167400px);"><!-- [if (mso)|(IE)]><table align="center" class="header" cellpadding="0" cellspacing="0" role="presentation"><tr><td style="width: 600px"><![endif]-->
+<div class="logo emb-logo-margin-box" style="font-size: 26px; line-height: 32px; color: #c3ced9; font-family: Roboto,Tahoma,sans-serif; margin: 4px 0px 11px 20px;" align="center">
+<div id="emb-email-header" class="logo-right" align="right"><img style="display: block; height: auto; width: 100%; border: 0; max-width: 130px;" src="https://serviceportal.mhivestasoffshore.com/customspace/logo.png" alt="" width="130" /></div>
+</div>
+<!-- [if (mso)|(IE)]></td></tr></table><![endif]--></div>
+</div>
+<div>
+<div class="layout one-col fixed-width" style="margin: 0 auto; max-width: 600px; min-width: 320px; width: calc(28000% - 167400px); overflow-wrap: break-word; word-wrap: break-word; word-break: break-word;">
+<div class="layout__inner" style="border-collapse: collapse; display: table; width: 100%; background-color: #ffffff;"><!-- [if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0" role="presentation"><tr class="layout-fixed-width" emb-background-style><td style="width: 600px" class="w560"><![endif]-->
+<div class="column" style="text-align: left; color: #7c7e7f; font-size: 14px; line-height: 21px; font-family: 'PT Serif',Georgia,serif; max-width: 600px; min-width: 320px; width: calc(28000% - 167400px);">
+<div style="margin-left: 20px; margin-right: 20px; margin-top: 24px;">
+<div style="line-height: 10px; font-size: 1px;">&nbsp;</div>
+</div>
+<div style="margin-left: 20px; margin-right: 20px;">
+<h3 class="size-20" lang="x-size-20" style="margin-top: 0; margin-bottom: 12px; font-style: normal; font-weight: normal; color: #788991; font-size: 17px; line-height: 26px; font-family: avenir,sans-serif; text-align: left;"><span class="font-avenir">Hi ${assigned_to.first_name},</span></h3>
+</div>
+<div style="margin-left: 20px; margin-right: 20px;">
+<div style="line-height: 5px; font-size: 1px;">&nbsp;</div>
+</div>
+<div style="margin-left: 20px; margin-right: 20px;">
+<h2 style="margin-top: 0; margin-bottom: 0; font-style: normal; font-weight: normal; color: #3e4751; font-size: 16px; line-height: 24px; font-family: Ubuntu,sans-serif;">You have been assigned a Service Request.</h2>
+<p style="margin-top: 16px; margin-bottom: 20px; font-family: ubuntu,sans-serif;"><span class="font-ubuntu"><strong>Details:</strong><br /> ID: ${number}&nbsp;<br /> Title: ${short_description}<br />Status: ${state}<br />Affected User: ${opened_by.first_name} ${opened_by.last_name}<br /><br /></span></p>
+<p style="margin-top: 16px; margin-bottom: 20px; font-family: ubuntu,sans-serif;"><span class="font-ubuntu"><strong>Description:</strong><br />${description}<strong><br /></strong></span></p>
+<p style="margin-top: 16px; margin-bottom: 20px; font-family: ubuntu,sans-serif;"><span class="font-ubuntu">${mail_script:CountOverdueNeedItTasksAssignedTo}</span></p>
+<p style="margin-top: 16px; margin-bottom: 20px; font-family: ubuntu,sans-serif;"><span class="font-ubuntu">Click here to view the NeedIt Task record: ${URI_REF}. </span></p>
+<p style="margin-top: 16px; margin-bottom: 20px; font-family: ubuntu,sans-serif;"><span class="font-ubuntu">${mailto:mailto.closeneedittask}</span></p>
+</div>
+</div>
+<!-- [if (mso)|(IE)]></td></tr></table><![endif]--></div>
+</div>
+<div style="line-height: 20px; font-size: 20px;">&nbsp;</div>
+<div class="layout two-col has-gutter" style="margin: 0 auto; max-width: 600px; min-width: 320px; width: calc(28000% - 167400px); overflow-wrap: break-word; word-wrap: break-word; word-break: break-word;">
+<div class="layout__inner" style="border-collapse: collapse; display: table; width: 100%;"><!-- [if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0" role="presentation"><tr><td style="width: 290px" valign="top" class="w250"><![endif]-->
+<div class="column" style="float: left; max-width: 320px; min-width: 290px; width: calc(18290px - 3000%);">
+<table class="column__background" style="border-collapse: collapse; table-layout: fixed; background-color: #ffffff;" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: left; color: #7c7e7f; font-size: 14px; line-height: 21px; font-family: 'PT Serif',Georgia,serif;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- [if (mso)|(IE)]></td><td style="width: 20px"><![endif]-->
+<div class="gutter" style="float: left; width: 20px;">&nbsp;</div>
+<!-- [if (mso)|(IE)]></td><td style="width: 290px" valign="top" class="w250"><![endif]-->
+<div class="column" style="float: left; max-width: 320px; min-width: 290px; width: calc(18290px - 3000%);">
+<table class="column__background" style="border-collapse: collapse; table-layout: fixed; background-color: #ffffff;" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: left; color: #7c7e7f; font-size: 14px; line-height: 21px; font-family: 'PT Serif',Georgia,serif;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- [if (mso)|(IE)]></td></tr></table><![endif]--></div>
+</div>
+<div style="line-height: 20px; font-size: 20px;">&nbsp;</div>
+<div>
+<div class="layout email-footer" style="margin: 0 auto; max-width: 600px; min-width: 320px; width: calc(28000% - 167400px); overflow-wrap: break-word; word-wrap: break-word; word-break: break-word;">
+<div class="layout__inner" style="border-collapse: collapse; display: table; width: 100%;"><!-- [if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0" role="presentation"><tr class="layout-email-footer"><td style="width: 400px;" valign="top" class="w360"><![endif]-->
+<div class="column wide" style="text-align: left; font-size: 12px; line-height: 19px; color: #7c7e7f; font-family: Ubuntu,sans-serif; float: left; max-width: 400px; min-width: 320px; width: calc(8000% - 47600px);">&nbsp;</div>
+<!-- [if (mso)|(IE)]></td><td style="width: 200px;" valign="top" class="w160"><![endif]-->
+<div class="column narrow" style="text-align: left; font-size: 12px; line-height: 19px; color: #7c7e7f; font-family: Ubuntu,sans-serif; float: left; max-width: 320px; min-width: 200px; width: calc(72200px - 12000%);">&nbsp;</div>
+<!-- [if (mso)|(IE)]></td></tr></table><![endif]--></div>
+</div>
+<div class="layout one-col email-footer" style="margin: 0 auto; max-width: 600px; min-width: 320px; width: calc(28000% - 167400px); overflow-wrap: break-word; word-wrap: break-word; word-break: break-word;">
+<div class="layout__inner" style="border-collapse: collapse; display: table; width: 100%;"><!-- [if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0" role="presentation"><tr class="layout-email-footer"><td style="width: 600px;" class="w560"><![endif]-->
+<div class="column" style="text-align: left; font-size: 12px; line-height: 19px; color: #7c7e7f; font-family: Ubuntu,sans-serif; max-width: 600px; min-width: 320px; width: calc(28000% - 167400px);">&nbsp;</div>
+<!-- [if (mso)|(IE)]></td></tr></table><![endif]--></div>
+</div>
+</div>
+<div style="line-height: 40px; font-size: 40px;">&nbsp;</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Overdue NeedIt Task</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Overdue NeedIt Task: ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>CHRBR</sys_created_by>
+        <sys_created_on>2019-05-28 10:01:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c5efb6fbdba133002623d1b1ca9619d3</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Overdue NeedIt Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_action_c5efb6fbdba133002623d1b1ca9619d3</sys_update_name>
+        <sys_updated_by>CHRBR</sys_updated_by>
+        <sys_updated_on>2019-08-16 10:42:43</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
